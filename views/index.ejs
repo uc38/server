@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LED Steuerung</title>
+</head>
+<body>
+<h2>LED-Zustand: <%= toggleState ? 'Ein' : 'Aus' %></h2>
+<form action="/button" method="POST">
+    <button type="submit">EIN/AUS</button>
+</form>
+</body>
+</html>
